@@ -2,9 +2,9 @@
 const CONSUMER_KEY="3MVG9fe4g9fhX0E4tswKUcniHt780vthf67t6bc9ZOiizap7y9eJZkV_6IgJgJjNXaflPYgVMo39uqlg87jvN";
 const CONSUMER_SECRET="81F4A6EC98CC7A66197F8931F509600EBD607D302CF2DB1B215531DF940B6465";
  
-const USERNAME="sandeep.saini@simsaw.com";
-const USERPASS="@salesforce123";
-const SECURITY_TOKEN="7I5jwHf7SzcI4YhDnAXkshn";
+const USERNAME=" ";
+const USERPASS=" ";
+const SECURITY_TOKEN=" ";
 
 $url = urlencode("https://login.salesforce.com/services/oauth2/token?grant_type=password&client_id=".CONSUMER_KEY."&client_secret=".CONSUMER_SECRET."&username=".USERNAME."&password=".USERPASS);
 
